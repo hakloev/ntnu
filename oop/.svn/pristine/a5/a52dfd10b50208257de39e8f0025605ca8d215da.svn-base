@@ -1,136 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<jex:Exercise xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jex="platform:/plugin/no.hal.jex/model/jex.ecore" xmi:id="_" text="3" original="platform:/resource/ovinger-2012/jex/ov3.jex">
-  <javaElements xsi:type="jex:JavaPack" xmi:id="_javaElements_0" name="oving3">
-    <classes xmi:id="Person_javaElements_0_classes_0" name="Person" modifiers="public">
-      <members xsi:type="jex:JavaField" xmi:id="name_javaElements_0_classes_0_members_0" name="name" required="true" type="String"/>
-      <members xsi:type="jex:JavaField" xmi:id="mother_javaElements_0_classes_0_members_1" name="mother" required="true" type="Person"/>
-      <members xsi:type="jex:JavaField" xmi:id="father_javaElements_0_classes_0_members_2" name="father" required="true" type="Person"/>
-      <members xsi:type="jex:JavaField" xmi:id="children_javaElements_0_classes_0_members_3" name="children" required="true" type="ArrayList&lt;Person>"/>
-      <members xsi:type="jex:JavaMethod" xmi:id="isMotherOf_javaElements_0_classes_0_members_4" name="isMotherOf" modifiers="public" returnType="boolean">
-        <parameters>Person</parameters>
-      </members>
-      <members xsi:type="jex:JavaMethod" xmi:id="isFatherOf_javaElements_0_classes_0_members_5" name="isFatherOf" modifiers="public" returnType="boolean">
-        <parameters>Person</parameters>
-      </members>
-      <members xsi:type="jex:JavaMethod" xmi:id="isSiblingOf_javaElements_0_classes_0_members_6" name="isSiblingOf" modifiers="public" returnType="boolean">
-        <parameters>Person</parameters>
-      </members>
-      <members xsi:type="jex:JavaMethod" xmi:id="isHalfSiblingOf_javaElements_0_classes_0_members_7" name="isHalfSiblingOf" modifiers="public" returnType="boolean">
-        <parameters>Person</parameters>
-      </members>
-    </classes>
-    <classes xsi:type="jex:JavaClassTester" xmi:id="PersonTest_javaElements_0_classes_1" name="PersonTest" modifiers="public" testedElement="Person_javaElements_0_classes_0">
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testIsMotherOf_javaElements_0_classes_1_members_0" name="testIsMotherOf" modifiers="public" returnType="void"/>
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testIsFatherOf_javaElements_0_classes_1_members_1" name="testIsFatherOf" modifiers="public" returnType="void"/>
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testIsSiblingOf_javaElements_0_classes_1_members_2" name="testIsSiblingOf" modifiers="public" returnType="void"/>
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testIsHalfSiblingOf_javaElements_0_classes_1_members_3" name="testIsHalfSiblingOf" modifiers="public" returnType="void"/>
-      <superclasses>TestCase</superclasses>
-    </classes>
-    <classes xmi:id="Card_javaElements_0_classes_2" name="Card" modifiers="public">
-      <members xsi:type="jex:JavaField" xmi:id="suit_javaElements_0_classes_2_members_0" name="suit" required="true" type="String"/>
-      <members xsi:type="jex:JavaField" xmi:id="face_javaElements_0_classes_2_members_1" name="face" required="true" type="int"/>
-      <members xsi:type="jex:JavaMethod" xmi:id="toString_javaElements_0_classes_2_members_2" name="toString" modifiers="public" returnType="String"/>
-    </classes>
-    <classes xsi:type="jex:JavaClassTester" xmi:id="CardTest_javaElements_0_classes_3" name="CardTest" modifiers="public" testedElement="Card_javaElements_0_classes_2">
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testToString_javaElements_0_classes_3_members_0" name="testToString" modifiers="public" returnType="void"/>
-      <superclasses>TestCase</superclasses>
-    </classes>
-    <classes xmi:id="CardDeck_javaElements_0_classes_4" name="CardDeck" modifiers="public">
-      <members xsi:type="jex:JavaField" xmi:id="cards_javaElements_0_classes_4_members_0" name="cards" type="ArrayList&lt;Card>"/>
-      <members xsi:type="jex:JavaMethod" xmi:id="init_javaElements_0_classes_4_members_1" name="init" modifiers="public" returnType="void"/>
-      <members xsi:type="jex:JavaMethod" xmi:id="getCard_javaElements_0_classes_4_members_2" name="getCard" modifiers="public" returnType="Card">
-        <parameters>int</parameters>
-      </members>
-      <superclasses>GraphicsProgram</superclasses>
-    </classes>
-    <classes xsi:type="jex:JavaClassTester" xmi:id="CardDeckTest_javaElements_0_classes_5" name="CardDeckTest" modifiers="public" testedElement="CardDeck_javaElements_0_classes_4">
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testInit_javaElements_0_classes_5_members_0" name="testInit" modifiers="public" returnType="void"/>
-      <members xsi:type="jex:JavaMethodTester" xmi:id="testGetCard_javaElements_0_classes_5_members_1" name="testGetCard" modifiers="public" returnType="void"/>
-      <superclasses>TestCase</superclasses>
-    </classes>
-    <classes xsi:type="jex:TestSuite" xmi:id="AllTests_javaElements_0_classes_6" name="AllTests" modifiers="public"/>
-    <classes xmi:id="Kongefamilien_javaElements_0_classes_7" name="Kongefamilien" modifiers="public">
-      <members xsi:type="jex:JavaMethod" xmi:id="init_javaElements_0_classes_7_members_0" name="init" modifiers="public" returnType="void"/>
-      <members xsi:type="jex:JavaMethod" xmi:id="run_javaElements_0_classes_7_members_1" name="run" modifiers="public" returnType="void"/>
-      <superclasses>GraphicsProgram</superclasses>
-    </classes>
-  </javaElements>
-  <requirements xsi:type="jex:ExercisePart" xmi:id="_requirements_0" text="Person class">
-    <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0" text="public class Person in package oving3" javaElement="Person_javaElements_0_classes_0">
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_0" text="String field name in public class Person in package oving3" javaElement="name_javaElements_0_classes_0_members_0">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_0_description'>A <b>Person</b> has a name. Create a String-field to hold the name.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_1" text="Person field mother in public class Person in package oving3" javaElement="mother_javaElements_0_classes_0_members_1">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_1_description'>A <b>Person</b> has a mother. Create a field for that, too.</div></description>
-        <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_0_requirements_0_requirements_1_comment'><b>Note:</b> This is not a <b>String</b> field. A <b>Person</b>'s mother is also a <b>Person</b>: This gives you a taste of OOP. A class can actually hold fields of the same type as the class itself.</div></comment>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_2" text="Person field father in public class Person in package oving3" javaElement="father_javaElements_0_classes_0_members_2">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_2_description'>A <b>Person</b> has a father. Create a field for the father.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_3" text="ArrayList&lt;Person> field children in public class Person in package oving3" javaElement="children_javaElements_0_classes_0_members_3">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_3_description'>An ArrayList holding the <b>Person</b>'s children.</div></description>
-        <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_0_requirements_0_requirements_3_comment'>The children are naturally <b>Person</b>s as well. Since a person can have more than one child, we cannot use a simple field, but need to use an ArrayList.</div></comment>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_4" text="public boolean method isMotherOf in public class Person in package oving3" javaElement="isMotherOf_javaElements_0_classes_0_members_4">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_4_description'>Create a method that tests whether this Person is the mother of the Person given as an argument to the method.</div></description>
-        <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_0_requirements_0_requirements_4_comment'>It is not enough to check whether the Person has <b>this</b> Person registered as his or her mother, you must check that the Person is in <b>this</b> Person's children list, too. Consistency is key here.</div></comment>
-      </requirements>
-      <requirements xsi:type="jex:JUnitTest" xmi:id="_requirements_0_requirements_0_requirements_5" text="Test with public void method testIsMotherOf in public class PersonTest in package oving3" javaElement="testIsMotherOf_javaElements_0_classes_1_members_0" testRunnable="testIsMotherOf_javaElements_0_classes_1_members_0" points="10"/>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_6" text="public boolean method isFatherOf in public class Person in package oving3" javaElement="isFatherOf_javaElements_0_classes_0_members_5">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_6_description'>Create a method that tests whether this Person is the father of the Person given as an argument to the method.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JUnitTest" xmi:id="_requirements_0_requirements_0_requirements_7" text="Test with public void method testIsFatherOf in public class PersonTest in package oving3" javaElement="testIsFatherOf_javaElements_0_classes_1_members_1" testRunnable="testIsFatherOf_javaElements_0_classes_1_members_1" points="10"/>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_0_requirements_0_requirements_8" text="public boolean method isSiblingOf in public class Person in package oving3" javaElement="isSiblingOf_javaElements_0_classes_0_members_6">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_requirements_0_requirements_8_description'>Create a method that tests whether this Person is the full sibling of the Person given as an argument to the method.</div></description>
-        <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_0_requirements_0_requirements_8_comment'>This method is actually a lot more subtle than it might seem at a first glance. Ask yourself: When are two people formally full siblings? Furthermore, Java doesn't care whether or not a Person can be his/her own sibling in the real world. In Java, that is completely possible unless you force it not to be!</div></comment>
-      </requirements>
-      <requirements xsi:type="jex:JUnitTest" xmi:id="_requirements_0_requirements_0_requirements_9" text="Test with public void method testIsSiblingOf in public class PersonTest in package oving3" javaElement="testIsSiblingOf_javaElements_0_classes_1_members_2" testRunnable="testIsSiblingOf_javaElements_0_classes_1_members_2" points="15"/>
-    </requirements>
-    <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_0_description'>The <b>Person</b> class will be used to, obviously, define a person.</div></description>
-  </requirements>
-  <requirements xsi:type="jex:ExercisePart" xmi:id="_requirements_1" text="Creation of object structure for the Royal Family (20 pt.)">
-    <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_1_requirements_0" text="public class Kongefamilien in package oving3" javaElement="Kongefamilien_javaElements_0_classes_7">
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_1_requirements_0_requirements_0" text="public void method init in public class Kongefamilien in package oving3" javaElement="init_javaElements_0_classes_7_members_0"/>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_1_requirements_0_requirements_1" text="public void method run in public class Kongefamilien in package oving3" javaElement="run_javaElements_0_classes_7_members_1"/>
-    </requirements>
-    <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_1_description'>Create objects corresponding to the Norwegian Royal Family. A diagram of the family is shown below. You can create the objects f.ex. in a new class with a method createRoyalFamily() and call that method from the run() method.<ul>	<li>Harald og Sonja</li>		<ul>			<li>Haakon og Mette-Marit</li>				<ul>					<li>Ingrid Alexandra</li>					<li>Sigurd Magnus</li>				</ul>			<li>Märtha og Ari</li>				<ul>					<li>Maud Angelica</li>					<li>Leah Isadora</li>					<li>Emma Talulah</li>				</ul>		</ul></ul>You need to verify that you have created the correct object structure by e.g. printing out all the Person objects in the family. You can do this by making a toString() method in the Person class that prints out the mother, father and children attributes of the object. Then call this method for each member of the family (object).</div></description>
-    <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_1_comment'>This part is not covered by JExercise. This means that you must demonstrate your code and output to the student assistant to get these 20 points.</div></comment>
-  </requirements>
-  <requirements xsi:type="jex:ExercisePart" xmi:id="_requirements_2" text="Card and CardDeck classes">
-    <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_0" text="public class Card in package oving3" javaElement="Card_javaElements_0_classes_2">
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_0_requirements_0" text="String field suit in public class Card in package oving3" javaElement="suit_javaElements_0_classes_2_members_0">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_0_requirements_0_description'>A card has a suit. The suit can either be Clubs, Hearts, Spades or Diamonds. We let each be denoted by a capital letter; "C", "H", "S" or "D", respectively.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_0_requirements_1" text="int field face in public class Card in package oving3" javaElement="face_javaElements_0_classes_2_members_1">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_0_requirements_1_description'>The face is the value of the card. For our purposes, let Ace have the value 1, and then let the rest of the cards have their conventional values.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_0_requirements_2" text="public String method toString in public class Card in package oving3" javaElement="toString_javaElements_0_classes_2_members_2">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_0_requirements_2_description'>The toString method returns the suit and face values as one String with no space in between.</div></description>
-        <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_2_requirements_0_requirements_2_comment'>Example: The Ace of Spades should return "S1" as the value of the toString method, and the Queen of Hearts should return "H12".</div></comment>
-      </requirements>
-      <requirements xsi:type="jex:JUnitTest" xmi:id="_requirements_2_requirements_0_requirements_3" text="Test with public void method testToString in public class CardTest in package oving3" javaElement="testToString_javaElements_0_classes_3_members_0" testRunnable="testToString_javaElements_0_classes_3_members_0" points="10"/>
-      <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_0_description'>Create a class <code>Card</code></div></description>
-    </requirements>
-    <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_1" text="public class CardDeck in package oving3" javaElement="CardDeck_javaElements_0_classes_4">
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_1_requirements_0" text="ArrayList&lt;Card> field cards in public class CardDeck in package oving3" javaElement="cards_javaElements_0_classes_4_members_0">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_1_requirements_0_description'>A CardDeck is effectively a list of Cards. Create such an list field.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_1_requirements_1" text="public void method init in public class CardDeck in package oving3" javaElement="init_javaElements_0_classes_4_members_1">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_1_requirements_1_description'>The init() method fills the deck with the 52 cards that are in a standard (Norwegian) deck. Fill it in the order S,H,D,C and in increasing face value, i.e. the first card is the Ace of Spades ("S1"), the second 2 of Spades ("S2"), and the last is King of Clubs ("C13").</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JUnitTest" xmi:id="_requirements_2_requirements_1_requirements_2" text="Test with public void method testInit in public class CardDeckTest in package oving3" javaElement="testInit_javaElements_0_classes_5_members_0" testRunnable="testInit_javaElements_0_classes_5_members_0" points="15"/>
-      <requirements xsi:type="jex:JavaRequirement" xmi:id="_requirements_2_requirements_1_requirements_3" text="public Card method getCard in public class CardDeck in package oving3" javaElement="getCard_javaElements_0_classes_4_members_2">
-        <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_1_requirements_3_description'>Create a method that takes an int argument and returns the card in that position in the Card list.</div></description>
-      </requirements>
-      <requirements xsi:type="jex:JUnitTest" xmi:id="_requirements_2_requirements_1_requirements_4" text="Test with public void method testGetCard in public class CardDeckTest in package oving3" javaElement="testGetCard_javaElements_0_classes_5_members_1" testRunnable="testGetCard_javaElements_0_classes_5_members_1" points="5"/>
-      <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_requirements_1_description'>Create the class <code>CardDeck</code>. The card deck will obviously hold some cards later on.</div></description>
-    </requirements>
-    <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_2_description'>In this part, we're going to create cards and decks of cards.</div></description>
-  </requirements>
-  <requirements xsi:type="jex:ExercisePart" xmi:id="_requirements_3" text="Drawing the deck of cards">
-    <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='_requirements_3_description'>Extend CardDeck to also draw the card deck in some way of your choosing. The CardDeck class already has a method called createGImage for returning a returning a GImage for a given suit and face (String and int, respectively). This simply means that if you call createGImage("H", 3), you will get a GImage object which will be an image of the card H3, namely the three of hearts. Add one such GImage for each card in the deck , and the whole deck will be shown in the application window. Note you also must set the location of each card appropriately, so they won't cover each other.</div></description>
-    <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='_requirements_3_comment'>For the final 15 points, demonstrate this program to your student assistant.</div></comment>
-  </requirements>
-  <description><div xmlns='http://www.w3.org/1999/xhtml' class='description' id='__description'>ov3.pre.xml</div></description>
-  <comment><div xmlns='http://www.w3.org/1999/xhtml' class='comment' id='__comment'>This exercise focuses on object structures and simple methods. The goal is to teach you basic object-orientation concepts.</div></comment>
-</jex:Exercise>
