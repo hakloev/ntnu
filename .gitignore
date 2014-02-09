@@ -74,8 +74,8 @@ nosetests.xml
 .DS_Store
 
 # Screenshots and zips from ktn
-ktn/screenshots/
-ktn/*.zip
+ktn/oving*/screenshots/
+ktn/oving*/*.zip
 
 # Intellij
 .idea/
