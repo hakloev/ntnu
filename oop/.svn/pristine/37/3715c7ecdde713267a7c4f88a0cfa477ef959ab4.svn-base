@@ -1,0 +1,37 @@
+<exercise
+	title="Object-structures" 
+	compulsory="yes" 
+	deadline="08.02.2012">
+
+	<objectives>
+		<obj>learn to declare a class with fields</obj>
+		<obj>learn how to declare methods, invoke methods, and pass arguments to a method</obj>
+		<obj>learn how to use object-oriented structures</obj>
+	</objectives>
+
+	<requirements>
+		<req>
+			Use Eclipse for writing and testing all parts of the exercise.
+		</req>
+		<req>
+			Use the JExercise tool to verify the code.
+		</req>
+		<req>
+			All classes must be defined/stored in package/folder oving3.
+		</req>
+		<req>
+			For classes; use the exact names and modifiers that are specified in the exercise.
+		</req>
+		<req>
+			For methods; use the exact name, parameter datatype, sequence of parameters, and 
+			datatype for return value, that are specified.
+		</req>
+		<req>
+			NB! Parameters and fields, and their types, are not always specified. If not, it can 
+			be deduced from the text and it is a part of the exercise to figure out what it has 
+			to be.
+		</req>
+	</requirements>
+	
+	<comment></comment>
+</exercise>
