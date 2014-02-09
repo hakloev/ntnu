@@ -1,0 +1,688 @@
+Ny iterasjon, er på node: 0
+Går venstre!
+Ny iterasjon, er på node: 1
+Går venstre!
+Ny iterasjon, er på node: 3
+Går venstre!
+Ny iterasjon, er på node: 7
+Går venstre!
+Ny iterasjon, er på node: 15
+Du kan ikke låse opp denne låsen uten en nøkkel.
+Ny iterasjon, er på node: 7
+Går høyre!
+Ny iterasjon, er på node: 16
+Fant nøkkel, går tilbake!
+Ny iterasjon, er på node: 7
+Går venstre!
+Ny iterasjon, er på node: 15
+Laaste opp!
+Ny iterasjon, er på node: 15
+Går venstre!
+Ny iterasjon, er på node: 27
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 15
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Går høyre!
+Ny iterasjon, er på node: 16
+Går venstre!
+Ny iterasjon, er på node: 28
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 16
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Går venstre!
+Ny iterasjon, er på node: 7
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Går høyre!
+Ny iterasjon, er på node: 8
+Går venstre!
+Ny iterasjon, er på node: 17
+Går venstre!
+Ny iterasjon, er på node: 29
+Går venstre!
+Ny iterasjon, er på node: 42
+Går venstre!
+Ny iterasjon, er på node: 59
+Du kan ikke låse opp denne superlåsen uten minst to nøkler.
+Ny iterasjon, er på node: 42
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 29
+Går høyre!
+Ny iterasjon, er på node: 43
+Går venstre!
+Ny iterasjon, er på node: 60
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 43
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 29
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 17
+Går høyre!
+Ny iterasjon, er på node: 30
+Går venstre!
+Ny iterasjon, er på node: 44
+Går venstre!
+Ny iterasjon, er på node: 61
+Går venstre!
+Ny iterasjon, er på node: 75
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 61
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 44
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 30
+Går høyre!
+Ny iterasjon, er på node: 45
+Går venstre!
+Ny iterasjon, er på node: 62
+Går venstre!
+Ny iterasjon, er på node: 76
+Går venstre!
+Ny iterasjon, er på node: 87
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 76
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 62
+Går høyre!
+Ny iterasjon, er på node: 77
+Går venstre!
+Ny iterasjon, er på node: 88
+Går venstre!
+Ny iterasjon, er på node: 94
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 88
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 77
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 62
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 45
+Går høyre!
+Ny iterasjon, er på node: 63
+Går venstre!
+Ny iterasjon, er på node: 78
+Du kan ikke låse opp denne låsen uten en nøkkel.
+Ny iterasjon, er på node: 63
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 45
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 30
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 17
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 8
+Går høyre!
+Ny iterasjon, er på node: 18
+Går venstre!
+Ny iterasjon, er på node: 31
+Går venstre!
+Ny iterasjon, er på node: 46
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 31
+Går høyre!
+Ny iterasjon, er på node: 47
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 31
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 18
+Går høyre!
+Ny iterasjon, er på node: 32
+Går venstre!
+Ny iterasjon, er på node: 48
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 32
+Går høyre!
+Ny iterasjon, er på node: 49
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 32
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 18
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 8
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 1
+Går venstre!
+Ny iterasjon, er på node: 3
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 1
+Går høyre!
+Ny iterasjon, er på node: 4
+Går venstre!
+Ny iterasjon, er på node: 9
+Går venstre!
+Ny iterasjon, er på node: 19
+Går venstre!
+Ny iterasjon, er på node: 33
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 19
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 9
+Går høyre!
+Ny iterasjon, er på node: 20
+Går venstre!
+Ny iterasjon, er på node: 34
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 20
+Går høyre!
+Ny iterasjon, er på node: 35
+Fant nøkkel, går tilbake!
+Ny iterasjon, er på node: 20
+Går venstre!
+Ny iterasjon, er på node: 34
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 20
+Går høyre!
+Ny iterasjon, er på node: 35
+Går venstre!
+Ny iterasjon, er på node: 51
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 35
+Går høyre!
+Ny iterasjon, er på node: 52
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 35
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 20
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 9
+Går venstre!
+Ny iterasjon, er på node: 19
+Går venstre!
+Ny iterasjon, er på node: 33
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 19
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 9
+Går høyre!
+Ny iterasjon, er på node: 20
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 9
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 4
+Går venstre!
+Ny iterasjon, er på node: 9
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 4
+Går høyre!
+Ny iterasjon, er på node: 10
+Går venstre!
+Ny iterasjon, er på node: 21
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 10
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 4
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 1
+Går venstre!
+Ny iterasjon, er på node: 3
+Går venstre!
+Ny iterasjon, er på node: 7
+Går venstre!
+Ny iterasjon, er på node: 15
+Går venstre!
+Ny iterasjon, er på node: 27
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 15
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Går høyre!
+Ny iterasjon, er på node: 16
+Går venstre!
+Ny iterasjon, er på node: 28
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 16
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Går høyre!
+Ny iterasjon, er på node: 8
+Går venstre!
+Ny iterasjon, er på node: 17
+Går venstre!
+Ny iterasjon, er på node: 29
+Går venstre!
+Ny iterasjon, er på node: 42
+Går venstre!
+Ny iterasjon, er på node: 59
+Du kan ikke låse opp denne superlåsen uten minst to nøkler.
+Ny iterasjon, er på node: 42
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 29
+Går høyre!
+Ny iterasjon, er på node: 43
+Går venstre!
+Ny iterasjon, er på node: 60
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 43
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 29
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 17
+Går høyre!
+Ny iterasjon, er på node: 30
+Går venstre!
+Ny iterasjon, er på node: 44
+Går venstre!
+Ny iterasjon, er på node: 61
+Går venstre!
+Ny iterasjon, er på node: 75
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 61
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 44
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 30
+Går høyre!
+Ny iterasjon, er på node: 45
+Går venstre!
+Ny iterasjon, er på node: 62
+Går venstre!
+Ny iterasjon, er på node: 76
+Går venstre!
+Ny iterasjon, er på node: 87
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 76
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 62
+Går høyre!
+Ny iterasjon, er på node: 77
+Går venstre!
+Ny iterasjon, er på node: 88
+Går venstre!
+Ny iterasjon, er på node: 94
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 88
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 77
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 62
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 45
+Går høyre!
+Ny iterasjon, er på node: 63
+Går venstre!
+Ny iterasjon, er på node: 78
+Laaste opp!
+Ny iterasjon, er på node: 78
+Går venstre!
+Ny iterasjon, er på node: 89
+Fant nøkkel, går tilbake!
+Ny iterasjon, er på node: 78
+Går venstre!
+Ny iterasjon, er på node: 89
+Går venstre!
+Ny iterasjon, er på node: 95
+Går venstre!
+Ny iterasjon, er på node: 97
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 95
+Går høyre!
+Ny iterasjon, er på node: 98
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 95
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 89
+Går høyre!
+Ny iterasjon, er på node: 96
+Fant nøkkel, går tilbake!
+Ny iterasjon, er på node: 89
+Går venstre!
+Ny iterasjon, er på node: 95
+Går venstre!
+Ny iterasjon, er på node: 97
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 95
+Går høyre!
+Ny iterasjon, er på node: 98
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 95
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 89
+Går høyre!
+Ny iterasjon, er på node: 96
+Går venstre!
+Ny iterasjon, er på node: 99
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 96
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 89
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 78
+Går venstre!
+Ny iterasjon, er på node: 89
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 78
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 63
+Går venstre!
+Ny iterasjon, er på node: 78
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 63
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 45
+Går venstre!
+Ny iterasjon, er på node: 62
+Går venstre!
+Ny iterasjon, er på node: 76
+Går venstre!
+Ny iterasjon, er på node: 87
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 76
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 62
+Går høyre!
+Ny iterasjon, er på node: 77
+Går venstre!
+Ny iterasjon, er på node: 88
+Går venstre!
+Ny iterasjon, er på node: 94
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 88
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 77
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 62
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 45
+Går høyre!
+Ny iterasjon, er på node: 63
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 45
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 30
+Går venstre!
+Ny iterasjon, er på node: 44
+Går venstre!
+Ny iterasjon, er på node: 61
+Går venstre!
+Ny iterasjon, er på node: 75
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 61
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 44
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 30
+Går høyre!
+Ny iterasjon, er på node: 45
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 30
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 17
+Går venstre!
+Ny iterasjon, er på node: 29
+Går venstre!
+Ny iterasjon, er på node: 42
+Går venstre!
+Ny iterasjon, er på node: 59
+Laaste opp!
+Ny iterasjon, er på node: 59
+Går venstre!
+Ny iterasjon, er på node: 74
+Du kan ikke låse opp denne superlåsen uten minst to nøkler.
+Ny iterasjon, er på node: 59
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 42
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 29
+Går høyre!
+Ny iterasjon, er på node: 43
+Går venstre!
+Ny iterasjon, er på node: 60
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 43
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 29
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 17
+Går høyre!
+Ny iterasjon, er på node: 30
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 17
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 8
+Går venstre!
+Ny iterasjon, er på node: 17
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 8
+Går høyre!
+Ny iterasjon, er på node: 18
+Går venstre!
+Ny iterasjon, er på node: 31
+Går venstre!
+Ny iterasjon, er på node: 46
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 31
+Går høyre!
+Ny iterasjon, er på node: 47
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 31
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 18
+Går høyre!
+Ny iterasjon, er på node: 32
+Går venstre!
+Ny iterasjon, er på node: 48
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 32
+Går høyre!
+Ny iterasjon, er på node: 49
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 32
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 18
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 8
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Går venstre!
+Ny iterasjon, er på node: 7
+Går venstre!
+Ny iterasjon, er på node: 15
+Går venstre!
+Ny iterasjon, er på node: 27
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 15
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Går høyre!
+Ny iterasjon, er på node: 16
+Går venstre!
+Ny iterasjon, er på node: 28
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 16
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Går høyre!
+Ny iterasjon, er på node: 8
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 1
+Går venstre!
+Ny iterasjon, er på node: 3
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 1
+Går høyre!
+Ny iterasjon, er på node: 4
+Går venstre!
+Ny iterasjon, er på node: 9
+Går venstre!
+Ny iterasjon, er på node: 19
+Går venstre!
+Ny iterasjon, er på node: 33
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 19
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 9
+Går høyre!
+Ny iterasjon, er på node: 20
+Går venstre!
+Ny iterasjon, er på node: 34
+Stank her, må gå tilbake...
+Ny iterasjon, er på node: 20
+Går høyre!
+Ny iterasjon, er på node: 35
+Går venstre!
+Ny iterasjon, er på node: 51
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 35
+Går høyre!
+Ny iterasjon, er på node: 52
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 35
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 20
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 9
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 4
+Går høyre!
+Ny iterasjon, er på node: 10
+Går venstre!
+Ny iterasjon, er på node: 21
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 10
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 4
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 1
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 0
+Går venstre!
+Ny iterasjon, er på node: 1
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 0
+Går høyre!
+Ny iterasjon, er på node: 2
+Fant nøkkel, går tilbake!
+Ny iterasjon, er på node: 0
+Går venstre!
+Ny iterasjon, er på node: 1
+Går venstre!
+Ny iterasjon, er på node: 3
+Går venstre!
+Ny iterasjon, er på node: 7
+Går venstre!
+Ny iterasjon, er på node: 15
+Går venstre!
+Ny iterasjon, er på node: 27
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 15
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Går høyre!
+Ny iterasjon, er på node: 16
+Går venstre!
+Ny iterasjon, er på node: 28
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 16
+Dette er en blindvei.
+Går tilbake...
+Ny iterasjon, er på node: 7
+Må gå enda lenger tilbake...
+Ny iterasjon, er på node: 3
+Går høyre!
+Ny iterasjon, er på node: 8
+Går venstre!
+Ny iterasjon, er på node: 17
+Går venstre!
+Ny iterasjon, er på node: 29
+Går venstre!
+Ny iterasjon, er på node: 42
+Går venstre!
+Ny iterasjon, er på node: 59
+Går venstre!
+Ny iterasjon, er på node: 74
+Laaste opp!
+Ny iterasjon, er på node: 74
+Går venstre!
+Ny iterasjon, er på node: 86
+Du løste labyrinten. Gratulerer!
+DU ER VANVITTIG FLINK LØVDAL!
