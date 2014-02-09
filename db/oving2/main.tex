@@ -1,0 +1,30 @@
+%%===================================
+\documentclass[a4paper, norsk, 11pt]{article}
+\usepackage{Konfigurasjon/pakker}     %inkluderer alle pakkene i pakker.sty
+
+% for sitat i latex må en bruke  ``sitat''
+%%===================================
+\begin{document}
+
+\include*{Konfigurasjon/forside}  %inkluderer forside.tex
+
+\setcounter{page}{0}
+\pagenumbering{arabic}
+
+%%===== HER BEGYNNER TEKSTEN ====================================
+%%  SKRIV HVER DEL I EN EGEN TEX-FIL FOR RYDDIGHET OG ENKELT KUNNE MODIFISERE
+
+\include*{parts/introduksjon} % Introduksjon
+
+
+
+%%===== HER KOMMER REFERANSELISTA ====================================
+
+%\medskip
+%\bibliographystyle{plain}
+%\bibliography{Konfigurasjon/referanser.bib}
+%\newpage
+
+%%=========================================
+
+\end{document}

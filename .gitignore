@@ -92,3 +92,10 @@ ir/oving3/java/index/
 ir/oving4/index/
 ir/oving4/images/
 
+# DB files I can't publish
+db/oving*/files/
+
+
+
+# Most proably I wont push .jar
+*.jar

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram height="564" made_with_version="1.5" name="oppg2b" width="818">
+<entity id="0" is_weak="true" name="Handel" x="57" y="31">
+<attributes>
+<attribute is_hidden="false" is_key="true" name="handelnr" type=""/>
+<attribute is_hidden="false" is_key="false" name="kundenr" type=""/>
+<attribute is_hidden="false" is_key="false" name="dato" type=""/>
+<attribute is_hidden="false" is_key="false" name="tidspunkt" type=""/>
+</attributes>
+</entity>
+<entity id="1" is_weak="false" name="Kunde" x="307" y="33">
+<attributes>
+<attribute is_hidden="false" is_key="true" name="kundenr" type=""/>
+<attribute is_hidden="false" is_key="false" name="navn" type=""/>
+<attribute is_hidden="false" is_key="false" name="adresse" type=""/>
+</attributes>
+</entity>
+<entity id="2" is_weak="false" name="Vare" x="299" y="204">
+<attributes>
+<attribute is_hidden="false" is_key="true" name="varenr" type=""/>
+<attribute is_hidden="false" is_key="false" name="navn" type=""/>
+<attribute is_hidden="false" is_key="false" name="pris" type=""/>
+<attribute is_hidden="false" is_key="false" name="produsentnavn" type=""/>
+</attributes>
+</entity>
+<entity id="3" is_weak="false" name="Produsent" x="298" y="411">
+<attributes>
+<attribute is_hidden="false" is_key="true" name="produsentnavn" type=""/>
+<attribute is_hidden="false" is_key="false" name="land" type=""/>
+</attributes>
+</entity>
+<diamond id="4" is_weak="true" name="handlet" x="198" y="54">
+<attributes/>
+</diamond>
+<diamond id="5" is_weak="false" name="har vare" x="118" y="230">
+<attributes>
+<attribute name="antall" type=""/>
+</attributes>
+</diamond>
+<diamond id="6" is_weak="false" name="produsert av" x="326" y="339">
+<attributes/>
+</diamond>
+<line cardinality_string="(0,n)" has_u="false" id="7" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="0" direction="0" object_id="1" relation_point_x="307" relation_point_y="69"/>
+<connection connection_side="2" direction="0" object_id="4" relation_point_x="230" relation_point_y="70"/>
+</line>
+<line cardinality_string="(1,1)" has_u="false" id="8" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="2" direction="0" object_id="0" relation_point_x="123" relation_point_y="78"/>
+<connection connection_side="0" direction="0" object_id="4" relation_point_x="198" relation_point_y="70"/>
+</line>
+<line cardinality_string="(1,n)" has_u="false" id="9" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="3" direction="1" object_id="0" relation_point_x="90" relation_point_y="125"/>
+<connection connection_side="0" direction="0" object_id="5" relation_point_x="118" relation_point_y="246"/>
+</line>
+<line cardinality_string="(0,n)" has_u="false" id="10" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="0" direction="0" object_id="2" relation_point_x="299" relation_point_y="247"/>
+<connection connection_side="2" direction="0" object_id="5" relation_point_x="150" relation_point_y="246"/>
+</line>
+<line cardinality_string="(1,1)" has_u="false" id="11" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="3" direction="1" object_id="2" relation_point_x="345" relation_point_y="290"/>
+<connection connection_side="1" direction="1" object_id="6" relation_point_x="342" relation_point_y="339"/>
+</line>
+<line cardinality_string="(0,n)" has_u="false" id="12" is_weak="false" role="" style="0" turned="false">
+<connection connection_side="1" direction="1" object_id="3" relation_point_x="344" relation_point_y="411"/>
+<connection connection_side="3" direction="1" object_id="6" relation_point_x="342" relation_point_y="371"/>
+</line>
+</diagram>
