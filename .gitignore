@@ -78,8 +78,11 @@ ktn/oving*/screenshots/
 ktn/oving*/*.zip
 
 # Intellij
-.idea/
+*.idea
 *.iml
 
 # Lucene index-files
 ir/oving3/java/index/
+ir/oving4/index/
+ir/oving4/images/
+
