@@ -1,0 +1,29 @@
+\usepackage[T1]{fontenc}                        		% Vise norske tegn
+\usepackage[utf8]{inputenc}                         	% For å kunne skrive norske tegn
+\usepackage[norsk]{babel}                           	% Tilpasning til norsk
+\usepackage{graphicx}                               	% For å inkludere grafikk
+\usepackage{multirow}					% For flere rader etc i tabeller
+\usepackage{fullpage}                               		% Gir smalere marger
+\usepackage{setspace}                               	% Gir 1.5 linjeavstand
+\usepackage{newclude}					% For \newpage i \include
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{listings}
+
+\lstset{literate=%
+{æ}{{\ae}}1
+{å}{{\aa}}1
+{ø}{{\o}}1
+{Æ}{{\AE}}1
+{Å}{{\AA}}1
+{Ø}{{\O}}1
+}
+
+\usepackage[margin=1in,headsep=.2in]{geometry}
+\onehalfspacing  
+
+%%%% FOR Å FÅ KLIKKBARE LINK-HOPP TIL REFERANSER OG LIGNENDE %%%%%
+\usepackage[colorlinks=true, a4paper=true, pdfstartview=FitV,
+linkcolor=black, citecolor=black, urlcolor=blue]{hyperref}
+\pdfcompresslevel=9
+
