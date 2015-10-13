@@ -3,7 +3,7 @@ from random import uniform
 
 parser = argparse.ArgumentParser(description="Single perceptron using step function")
 parser.add_argument("-debug", "-d", dest="d", type=int, default=False, help="Debug, default=0")
-parser.add_argument("-method", "-m", dest="m", default="AND", help="Training set type, default=AND")
+parser.add_argument("-method", "-m", dest="m", default="AND", help="Training set method, default=AND")
 parser.add_argument("-learningrate", "-lr", dest="lr", type=float, default=0.1, help="Learning rate for training, default=0.1")
 parser.add_argument("-ephocs", "-e", dest="e", type=int, default=1000, help="Max epochs for training, default=1000")
 
@@ -29,8 +29,7 @@ class Perceptron(object):
 		"""
 		self.threshold = round(uniform(*threshold_limit), 1)
 		self.weights = [round(uniform(*weight_limit), 1), round(uniform(*weight_limit), 1)]
-		if DEBUG:
-			print("Initiated perceptron with %s, %.1f" % (repr(self.weights), self.threshold))
+		print("Initiated perceptron with %s, %.1f" % (repr(self.weights), self.threshold))
 
 	def step_sum(self, values):
 		"""
@@ -65,8 +64,9 @@ class Perceptron(object):
 				break 
 			elif p >= max_p:
 				print("Training reached the maximum number of epochs (%d), and terminated" % (max_p))
+				break
 			elif previous_iteration == current_iteration:
-				print("Training will not converge (errors exist, but it isn't able to correct it)")
+				print("Training isn't able to correct existing errors")
 				break
 			previous_iteration = current_iteration
 
