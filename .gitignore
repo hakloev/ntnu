@@ -1,4 +1,4 @@
-# Latex ignores
+#Latex ignores
 *.acn
 *.acr
 *.alg
@@ -35,7 +35,7 @@
 # Python and stuff
 
 *.py[cod]
-
+*/__pycache__
 # C extensions
 *.so
 
