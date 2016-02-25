@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="cbr_1" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="food">
+    <desc name="cost" type="Float" min="0.0" max="200.0" mult="false" >
+      <fct name="test" type="Float" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+      <fct name="exact" type="Float" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" maxForQuotient="10.0" />
+    </desc>
+    <desc name="size" type="Symbol" mult="false" >
+      <symbol value="small" />
+      <symbol value="large" />
+      <symbol value="medium" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="small">
+<csym name="medium" sim="0.5"/>
+</qsym>
+<qsym name="large">
+<csym name="medium" sim="0.5"/>
+</qsym>
+<qsym name="medium">
+<csym name="small" sim="0.5"/>
+<csym name="large" sim="0.5"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="color" type="Symbol" mult="false" >
+      <symbol value="red" />
+      <symbol value="orange" />
+      <symbol value="green" />
+      <symbol value="blue" />
+      <symbol value="white" />
+      <symbol value="yellow" />
+      <symbol value="black" />
+      <symbol value="purple" />
+      <symbol value="brown" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="red">
+</qsym>
+<qsym name="orange">
+</qsym>
+<qsym name="green">
+</qsym>
+<qsym name="blue">
+</qsym>
+<qsym name="white">
+</qsym>
+<qsym name="yellow">
+</qsym>
+<qsym name="black">
+</qsym>
+<qsym name="purple">
+</qsym>
+<qsym name="brown">
+</qsym>
+</fct>
+    </desc>
+    <desc name="texture" type="Symbol" mult="false" >
+      <symbol value="fluid" />
+      <symbol value="porous" />
+      <symbol value="hard" />
+      <symbol value="soft" />
+      <symbol value="crisp" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="fluid">
+</qsym>
+<qsym name="porous">
+</qsym>
+<qsym name="hard">
+</qsym>
+<qsym name="soft">
+</qsym>
+<qsym name="crisp">
+</qsym>
+</fct>
+    </desc>
+    <desc name="name" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="weight" type="Integer" min="0" max="5000" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="false" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="default function" type="EUCLIDEAN" active="false" >
+      <entry name="cost" active="true" fct="exact" weight="1.0"/>
+      <entry name="size" active="true" fct="default function" weight="1.0"/>
+      <entry name="color" active="true" fct="default function" weight="1.0"/>
+      <entry name="texture" active="true" fct="default function" weight="1.0"/>
+      <entry name="name" active="true" fct="default function" weight="0.0"/>
+      <entry name="weight" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+    <amalgam name="Food1" type="WEIGHTED_SUM" active="true" >
+      <entry name="cost" active="true" fct="exact" weight="1.0"/>
+      <entry name="size" active="true" fct="default function" weight="1.0"/>
+      <entry name="color" active="true" fct="default function" weight="1.0"/>
+      <entry name="texture" active="true" fct="default function" weight="1.0"/>
+      <entry name="name" active="true" fct="default function" weight="0.0"/>
+      <entry name="weight" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="food" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="10" cb="food_base"/>
+</Project>

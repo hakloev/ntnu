@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="cbr_1" author="" >
+<exp obj="food" type="Concept" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="name" c="food" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="weight" c="food" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="size" c="food" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="cost" c="food" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="color" c="food" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="texture" c="food" type="AttributeDesc" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="small" c="food" desc="size" type="SimpleAttribute" >
+  <desc>
+&#10;    </desc>
+</exp>
+<exp obj="bread" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="banana" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="sausage" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="milk" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="butter" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="pizza" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="pea" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="hamburger" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="apple" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+<exp obj="lasagne" c="food" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>

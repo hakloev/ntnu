@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="cbr_1" author="" >
+<instances name="food">
+  <instance id="banana" >
+    <att name="name" value="banana" />
+    <att name="weight" value="200" />
+    <att name="size" value="small" />
+    <att name="cost" value="5.0" />
+    <att name="color" value="yellow" />
+    <att name="texture" value="soft" />
+  </instance>
+  <instance id="apple" >
+    <att name="name" value="apple" />
+    <att name="weight" value="150" />
+    <att name="size" value="small" />
+    <att name="cost" value="6.0" />
+    <att name="color" value="red" />
+    <att name="texture" value="hard" />
+  </instance>
+  <instance id="bread" >
+    <att name="name" value="bread" />
+    <att name="weight" value="510" />
+    <att name="size" value="medium" />
+    <att name="cost" value="31.5" />
+    <att name="color" value="brown" />
+    <att name="texture" value="soft" />
+  </instance>
+  <instance id="butter" >
+    <att name="name" value="butter" />
+    <att name="weight" value="500" />
+    <att name="size" value="medium" />
+    <att name="cost" value="45.0" />
+    <att name="color" value="yellow" />
+    <att name="texture" value="soft" />
+  </instance>
+  <instance id="lasagne" >
+    <att name="name" value="lasagne" />
+    <att name="weight" value="2500" />
+    <att name="size" value="large" />
+    <att name="cost" value="73.0" />
+    <att name="color" value="red" />
+    <att name="texture" value="soft" />
+  </instance>
+  <instance id="pizza" >
+    <att name="name" value="pizza" />
+    <att name="weight" value="2500" />
+    <att name="size" value="large" />
+    <att name="cost" value="200.0" />
+    <att name="color" value="white" />
+    <att name="texture" value="porous" />
+  </instance>
+  <instance id="milk" >
+    <att name="name" value="milk" />
+    <att name="weight" value="1000" />
+    <att name="size" value="medium" />
+    <att name="cost" value="15.0" />
+    <att name="color" value="white" />
+    <att name="texture" value="fluid" />
+  </instance>
+  <instance id="sausage" >
+    <att name="name" value="sausage" />
+    <att name="weight" value="2000" />
+    <att name="size" value="medium" />
+    <att name="cost" value="78.0" />
+    <att name="color" value="brown" />
+    <att name="texture" value="soft" />
+  </instance>
+  <instance id="pea" >
+    <att name="name" value="pea" />
+    <att name="weight" value="5" />
+    <att name="size" value="small" />
+    <att name="cost" value="0.5" />
+    <att name="color" value="green" />
+    <att name="texture" value="soft" />
+  </instance>
+  <instance id="hamburger" >
+    <att name="name" value="hamburger" />
+    <att name="weight" value="150" />
+    <att name="size" value="medium" />
+    <att name="cost" value="65.0" />
+    <att name="color" value="brown" />
+    <att name="texture" value="soft" />
+  </instance>
+</instances>
+<cb name="food_base">
+     <case name="banana" />
+     <case name="apple" />
+     <case name="bread" />
+     <case name="butter" />
+     <case name="lasagne" />
+     <case name="pizza" />
+     <case name="milk" />
+     <case name="sausage" />
+     <case name="pea" />
+     <case name="hamburger" />
+</cb>
+</Project>
