@@ -16,6 +16,11 @@ COLORS = [
 
 
 def load_data(filename):
+    """
+    Loads the data from filename in the data-folder
+    :param filename: The filename to load
+    :return: The data as floats in a list
+    """
     data = []
     with open('data/' + filename) as raw_data:
         for line in raw_data.readlines():
@@ -26,6 +31,12 @@ def load_data(filename):
 
 
 def visualize_data(data, mu):
+    """
+    Visualizes the data in a histogram
+    :param data: The entire data set
+    :param mu: The mean values as a list
+    :return: None
+    """
     n, bins, patches = plt.hist(data, len(data), normed=True, color='green')
     plt.xlim(min(data), max(data))
 
@@ -39,66 +50,78 @@ def visualize_data(data, mu):
     plt.show(block=True)
 
 
-def e_step(data, mu, i, j):
-    pass
+def m_step(expected_values, data, j):
+    """
+    Calculates u_j (maximum likelihood) with the expected values from the E-step
+    :param expected_values: The expected values from the E-step
+    :param data: The data set
+    :param j: The index of the mean currently working on
+    :return: The maximum likelihood
+    """
+    return sum([expected_values[j][i] * data[i] for i in range(len(data))]) / sum(expected_values[j])
 
 
-def m_step(expected, data, j):
-    sum_ = 0
-    for i in range(len(data)):
-        sum_ += expected[j][i] * data[i]
-    return sum_ / sum(expected[j])
-
-
-def pdfn(data, means, x, mu, sigma):
+def pdf_n(data, means, x, mu, sigma):
+    """
+    Calculates the probability density for the given input parameters
+    :param data: The data set
+    :param means: The current means
+    :param x: The index of the xth element in the data set
+    :param mu: The index of the mean to use
+    :param sigma: The variance, 1 in this case
+    :return: The result of pdf_N
+    """
     nominator = euler(-(((data[x] - means[mu]) ** 2) / (2 * sigma)))
     denominator = sqrt(sigma) * sqrt(2 * PI)
     return nominator / denominator
 
 
-def em(means=None, filename='sample-data.txt'):
+def em(means=None, filename='sample-data.txt', visualize=False):
+    """
+    Implementation of the EM algorithm for Gaussian Mixtures
+    :param means: If provided, this means will be used instead of the default [min, max] of the data
+    :param filename: The filename to load from the data-folder
+    :param visualize: If the result should be presented as a histogram using matplotlib
+    :return: None
+    """
     data = load_data(filename)
     if means is None:
         means = [min(data), max(data)]
     num_of_mixtures, dimensions = len(data), 1  # Number of mixtures, dimension of mixture
-    num_of_measures = len(means)  # Number of Gaussian components
+    num_of_measures = len(means)  # Number of Gaussians
 
-    for iteration in range(MAX_ITERATIONS):
-        if iteration % 5 == 0:
+    for iteration in range(1, MAX_ITERATIONS + 1):
+        if iteration % 5 == 0 or iteration == 1:
             print('%i: %s' % (iteration, means))
 
-        # E-STEP
+        """
+        E-Step
+        Calculates the expected values for every hidden variable given the current hypothesis
+        Does this for every Gaussian
+        """
         expected_values = []
         for j in range(num_of_measures):
             inner_values = []
             for i in range(num_of_mixtures):
-                """
-                nominator = euler(-(((data[i] - means[j]) ** 2) / (2 * 1)))
-                denominator = 1 * sqrt(2 * PI)
-                main_nominator = nominator / denominator
-                """
-                pdfn_denominator = pdfn(data, means, i, j, 1)
-
-                sum_ = 0
-                for n in range(num_of_measures):
-                    """
-                    inner_nominator = euler(-(((data[i] - means[n]) ** 2) / (2 * 1)))
-                    inner_den = 1 * sqrt(2 * PI)
-                    sum_ += (inner_nominator / inner_den)
-                    """
-                    sum_ += pdfn(data, means, i, n, 1)
-                inner_values.append(pdfn_denominator / sum_)
+                pdf_n_denominator = pdf_n(data, means, i, j, 1)
+                sum_ = sum([pdf_n(data, means, i, n, 1) for n in range(num_of_measures)])
+                inner_values.append(pdf_n_denominator / sum_)
             expected_values.append(inner_values)
 
-        # M-STEP
+        """
+        M-Step
+        Described in the method m_step()
+        """
         temp = [m_step(expected_values, data, j) for j in range(num_of_measures)]
 
         if temp == means:
+            # The algorithm has converged and can be terminated
             print('Converged at %i' % iteration)
             break
         means = temp
-    visualize_data(data, means)
+    if visualize:
+        visualize_data(data, means)
 
 
 if __name__ == "__main__":
-    em(means=None)
+    em(visualize=True)
