@@ -92,7 +92,8 @@ def em(means=None, filename='sample-data.txt', visualize=False):
 
     for iteration in range(1, MAX_ITERATIONS + 1):
         if iteration % 5 == 0 or iteration == 1:
-            print('%i: %s' % (iteration, means))
+            means_str = ', '.join(['%.10f' % el for el in means])
+            print('Iteration %i:\t[%s]' % (iteration, means_str))
 
         """
         E-Step
@@ -116,7 +117,9 @@ def em(means=None, filename='sample-data.txt', visualize=False):
 
         if temp == means:
             # The algorithm has converged and can be terminated
-            print('Converged at %i' % iteration)
+            means_str = ', '.join(['%.10f' % el for el in means])
+            print('Iteration %i:\t[%s]' % (iteration, means_str))
+            print('Converged at iteration %i' % iteration)
             break
         means = temp
     if visualize:
