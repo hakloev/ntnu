@@ -197,8 +197,8 @@ if __name__ == '__main__':
 
     # Gain Importance Tree
     gain_tree = decision_tree_learning(training_data, attr, None)
-    # print(gain_tree)
-    test(gain_tree, test_data, 'gain importance')
+    print(gain_tree)
+    # test(gain_tree, test_data, 'gain importance')
 
     # Random Tree
     # random_tree = decision_tree_learning(training_data, attr, None, random=True)
