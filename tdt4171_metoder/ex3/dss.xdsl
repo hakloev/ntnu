@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smile version="1.0" id="Network2" numsamples="1000" discsamples="10000">
+	<nodes>
+		<cpt id="Feeling_sick">
+			<state id="Yes" />
+			<state id="Some" />
+			<state id="No" />
+			<probabilities>0.1 0.2 0.7</probabilities>
+		</cpt>
+		<cpt id="Hungry">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Temperature">
+			<state id="Cold" />
+			<state id="Mild" />
+			<state id="Warm" />
+			<probabilities>0.3 0.5 0.2</probabilities>
+		</cpt>
+		<cpt id="Precipitation">
+			<state id="Sunny" />
+			<state id="Drizzle" />
+			<state id="Heavy" />
+			<state id="Storm" />
+			<probabilities>0.45 0.3 0.15 0.1</probabilities>
+		</cpt>
+		<cpt id="Studio_is_full">
+			<state id="Empty" />
+			<state id="Half" />
+			<state id="Full" />
+			<probabilities>0.15 0.7000000000000001 0.1499999999999999</probabilities>
+		</cpt>
+		<cpt id="Weather">
+			<state id="Good" />
+			<state id="Bad" />
+			<parents>Temperature Precipitation</parents>
+			<probabilities>0.85 0.15 0.2 0.8 0.1 0.9 0 1 1 0 0.6 0.4 0.2 0.8 0.01000000000000001 0.99 1 0 0.8 0.2 0.3 0.7 0.05000000000000004 0.95</probabilities>
+		</cpt>
+		<cpt id="Duration_of_training">
+			<state id="As_Planned" />
+			<state id="Longer_Than_Planned" />
+			<parents>Studio_is_full Weather</parents>
+			<probabilities>1 0 0.6 0.4 0.8 0.2 0.4 0.6 0.2 0.8 0 1</probabilities>
+		</cpt>
+		<cpt id="Muscle_fever">
+			<state id="None" />
+			<state id="Some" />
+			<state id="Intense" />
+			<probabilities>0.2 0.5 0.3</probabilities>
+		</cpt>
+		<cpt id="Training_efficiency">
+			<state id="High" />
+			<state id="Low" />
+			<parents>Hungry Muscle_fever Feeling_sick</parents>
+			<probabilities>0.15 0.85 0.5 0.5 0.5 0.5 0.05000000000000004 0.95 0.48 0.52 0.4 0.6 0 1 0.45 0.55 0.6 0.4 0.2 0.8 0.5 0.5 1 0 0.15 0.85 0.48 0.52 0.95 0.05000000000000004 0.09999999999999998 0.9 0.45 0.55 0.9 0.09999999999999998</probabilities>
+		</cpt>
+		<cpt id="Inspiring_people_present">
+			<state id="Yes" />
+			<state id="No" />
+			<parents>Studio_is_full</parents>
+			<probabilities>0.15 0.85 0.3 0.7 0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Quality_of_training_equipment">
+			<state id="Good" />
+			<state id="Bad" />
+			<probabilities>0.85 0.15</probabilities>
+		</cpt>
+		<cpt id="Motivational_music">
+			<state id="Yes" />
+			<state id="No" />
+			<probabilities>0.65 0.35</probabilities>
+		</cpt>
+		<cpt id="Studio_quality">
+			<state id="Good" />
+			<state id="Bad" />
+			<parents>Quality_of_training_equipment Motivational_music Studio_is_full</parents>
+			<probabilities>1 0 0.85 0.15 0.4 0.6 0.9 0.09999999999999998 0.75 0.25 0.3 0.7 0.65 0.35 0.5 0.5 0.25 0.75 0.55 0.45 0.4 0.6 0.15 0.85</probabilities>
+		</cpt>
+		<cpt id="Training_motivation">
+			<state id="High" />
+			<state id="Low" />
+			<parents>Weather Inspiring_people_present Studio_quality</parents>
+			<probabilities>1 0 0.6 0.4 0.8 0.2 0.4 0.6 0.8 0.2 0.4 0.6 0.6 0.4 0.2 0.8</probabilities>
+		</cpt>
+		<decision id="Should_I_Train_">
+			<state id="Yes" />
+			<state id="No" />
+		</decision>
+		<utility id="Training_Utility">
+			<parents>Training_efficiency Training_motivation Duration_of_training Should_I_Train_</parents>
+			<utilities>1 0 0.6 0.4 0.7 0.3 0.4 0.6 0.55 0.45 0.2 0.8 0.2 0.8 0 1</utilities>
+		</utility>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 2.0.4535.0" name="Network2" faultnameformat="nodestate">
+			<node id="Feeling_sick">
+				<name>Feeling sick</name>
+				<interior color="ffcc99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>64 153 133 196</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Hungry">
+				<name>Hungry</name>
+				<interior color="ffcc99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>70 248 118 278</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Temperature">
+				<name>Temperature</name>
+				<interior color="ffcc99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>61 400 134 445</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Precipitation">
+				<name>Precipitation</name>
+				<interior color="ffcc99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>62 490 133 534</position>
+				<barchart active="true" width="128" height="90" />
+			</node>
+			<node id="Training_motivation">
+				<name>Training motivation</name>
+				<interior color="ff99cc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>528 586 627 647</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Weather">
+				<name>Weather</name>
+				<interior color="ff99cc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>376 495 432 530</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Studio_quality">
+				<name>Studio quality</name>
+				<interior color="ff99cc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>370 772 446 819</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Quality_of_training_equipment">
+				<name>Quality of training equipment</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>49 792 142 850</position>
+				<barchart active="true" width="128" height="68" />
+			</node>
+			<node id="Motivational_music">
+				<name>Motivational music</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>47 878 144 938</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Studio_is_full">
+				<name>Studio is full</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>59 697 130 741</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Muscle_fever">
+				<name>Muscle fever</name>
+				<interior color="ffcc99" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>58 63 133 109</position>
+				<barchart active="true" width="128" height="72" />
+			</node>
+			<node id="Training_efficiency">
+				<name>Training efficiency</name>
+				<interior color="ff99cc" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>358 163 457 224</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Training_Utility">
+				<name>Training Utility</name>
+				<interior color="00ccff" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>736 337 822 369</position>
+				<barchart width="128" height="64" />
+			</node>
+			<node id="Should_I_Train_">
+				<name>Should I Train?</name>
+				<interior color="00ff00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>737 520 820 546</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Inspiring_people_present">
+				<name>Inspiring people present</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>53 585 142 640</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+			<node id="Duration_of_training">
+				<name>Duration of training</name>
+				<interior color="ffcc00" />
+				<outline color="000080" />
+				<font color="000000" name="Arial" size="8" />
+				<position>353 322 454 385</position>
+				<barchart active="true" width="128" height="64" />
+			</node>
+		</genie>
+	</extensions>
+</smile>
